@@ -3,12 +3,17 @@ import ReactDOM from "react-dom";
 
 // import GoodMorning from "./components/GoodMorning";
 // import { GoodAfternoon, GoodEvening } from "./components/ Multiples";
+// import Salutation from "./components/ Salutation";
 
-import Salutation from "./components/ Salutation";
+import Father from "./components/Father";
+import Son from "./components/Son";
 
 ReactDOM.render(
   <div>
-    <Salutation type="Good morning" name="Poly" />
+    <Father name="Paulo" lastname="Moura" />
+    <Son name="Pedro" />
+    <Son name="Luis" />
+    <Son name="Carla" />
   </div>,
   document.getElementById("root")
 );
