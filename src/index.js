@@ -1,9 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import GoodMorning from "./components/GoodMorning";
+// import GoodMorning from "./components/GoodMorning";
+import { GoodAfternoon, GoodEvening } from "./components/ Multiples";
 
 ReactDOM.render(
-  <GoodMorning name="Polyane" />,
+  <div>
+    <GoodAfternoon name="Polyane" />
+    <GoodEvening name="Polyane" />
+  </div>,
   document.getElementById("root")
 );
